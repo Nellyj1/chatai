@@ -1,8 +1,10 @@
 <?php
 class AIPC_OpenAI_Handler {
-    
+
     private $api_key;
     private $model;
+    private $provider = 'openai';
+    private $api_base = '';
     private $max_tokens = 1000;
     private $temperature = 0.7;
     
